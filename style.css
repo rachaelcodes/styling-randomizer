@@ -11,4 +11,5 @@ body {
 	width: 33%;
 	-webkit-justify-content: flex-end;
 	justify-content: flex-end;
+	font-family: 'Montserrat', sans-serif;
 }
