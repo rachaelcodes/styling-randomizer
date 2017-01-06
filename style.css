@@ -7,6 +7,7 @@ body {
 	justify-content: center;
 	-webkit-align-items: center;
 	align-items: center;
+	flex-wrap: wrap;
 }
 article {
 	margin: 20%; 
@@ -24,4 +25,7 @@ article {
 	width: 33%;
 	-webkit-align-self: flex-end;
 	align-self: flex-end;
+}
+#result {
+	margin-top: 10px;
 }
