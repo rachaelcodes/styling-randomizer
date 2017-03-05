@@ -3,29 +3,38 @@ body {
 	display: -webkit-flex;
    	display: flex;
    	font-family: 'Montserrat', sans-serif;
-   	-webkit-justify-content: center;
-	justify-content: center;
-	-webkit-align-items: center;
-	align-items: center;
+   	-webkit-justify-content: space-between;
+	justify-content: space-between;
+	-webkit-align-items: space-between;
+	align-items: space-between;
 	flex-wrap: wrap;
 }
 article {
-	margin: 20%; 
+	width: 70%; 
 	margin-top: 30px;
 	border-radius: 15px;
 	padding: 20px;
 	background-color: orange;
 }
 #help {
-	
 	background-color: #888;
 	color: white;
 	border-radius: 15px;
 	padding: 10px;
-	width: 33%;
+	width: 20%;
 	-webkit-align-self: flex-end;
 	align-self: flex-end;
 }
-#result {
-	margin-top: 10px;
+
+h1 {
+	font-size: xx-large;
+	font-weight: black;
+}
+
+h2 {
+	font-family: 'Raleway', sans-serif;
+}
+
+p {
+	font-family: 'Raleway', sans-serif;
 }
